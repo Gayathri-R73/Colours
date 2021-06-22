@@ -1,7 +1,6 @@
 import numpy as np                                              
 import cv2                                                      
 
-
 def nothing(x):                                                 
      pass
 
@@ -10,15 +9,7 @@ cv2.createTrackbar('Blue', 'BGR', 0, 255, nothing)
 cv2.createTrackbar('Green', 'BGR', 0, 255, nothing)                 
 cv2.createTrackbar('Red', 'BGR', 0, 255, nothing)
 
-'''                                                                
-cv2.setTrackbarPos('Blue', 'BGR', 10)                            
-cv2.setTrackbarPos('Green', 'BGR', 10)                        
-cv2.setTrackbarPos('Red', 'BGR', 10)
-
-'''
-
 bgr=np.ones((480, 720, 3), np.uint8)
-
 
 while True :
      
